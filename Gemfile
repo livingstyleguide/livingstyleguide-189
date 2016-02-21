@@ -22,7 +22,9 @@ gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
 
-gem 'livingstyleguide', github: 'livingstyleguide/livingstyleguide', branch: 'v2'
+gem 'livingstyleguide', '2.0.0.alpha.11'
+gem 'sprockets-rails', '2.3.3'
+gem 'sprockets', '2.12.4'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
